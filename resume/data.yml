@@ -1,23 +1,21 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Jake
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Knowles
+about: Enthusiastic and creative Front-end web developer with over 5 years of experience. I am knowledgeable in a range of Front-end languages and tools to build and maintain a wide range of web applications. I am a dependable team player and keen learner who thrives when faced with learning new tools which enhance my professional skillset.
+position: Front End Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1994
+  location: London
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: IPUSHPULL
+  position: Front-End Developer
+  timeperiod: since April 2019
+  description: Migrated the main web app from AngularJS to VueJS and build a reusable component architecture to use throughout other apps. I also used this library to build custom apps for customers for web, mobile and desktop.
+  website: https://ipushpull.com
 
 - company: Company B
   position: Frontend Developer
@@ -30,14 +28,14 @@ experience:
   description: Making coffee and baking cookies.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: IT Professional (Web Development)
+  timeperiod: August 2012 - August 2013
+  description: Level 3 Diploma
+  # website: https://example.com
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree:  ICT- BTEC National, History, Media Studies
+  timeperiod: September 2010 - May 2012
+  description: A Level
 
 # skill level goes 0 to 100
 skills:
@@ -47,18 +45,20 @@ skills:
   level: 95
 - name: JavaScript
   level: 97
-- name: Node.js
+- name: VueJS
   level: 93
-- name: Angular 2
+- name: React
   level: 60
-- name: TypeScript
+- name: AngularJS
   level: 80
-- name: ES.Next
+- name: Node.js
   level: 70
-- name: Docker
+- name: NPM/Yarn
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Wordpress
+  level: 99
+# knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+#   (English and Klingon).
 
 projects:
 - name: best-resume-ever
@@ -81,12 +81,12 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: jakeyknowles@hotmail.co.uk
+  phone: 07947108062
+  street: Tunbridge Wells
+  # city: New York
+  # website: johndoe.com
+  github: jknowles94
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
