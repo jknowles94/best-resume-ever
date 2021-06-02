@@ -90,6 +90,22 @@
             </a>
           </div>
         </div>
+        <div class="section" v-if="person.projects">
+          <div class="section-headline">
+            {{ lang.projects }}
+          </div>
+
+          <div class="section-content-grid">
+            <a v-for="(project, index) in person.projects" :key="index"
+              class="section-content__item-grid"
+              :href="project.url">
+              <span class="section-content__header"> {{ project.name }} </span>
+              <span class="section-content__subheader">{{ project.platform }}</span>
+              <span class="section-content__text"> {{ project.description }} </span>
+            </a>
+          </div>
+
+        </div>
       </div>
 
       <div class="content__right">
@@ -133,24 +149,6 @@
               <span class="section-content__subheader">{{ education.degree }}</span>
               <span class="section-content__text"> {{ education.timeperiod }} </span>
               <span class="section-content__text--light"> {{ education.description }} </span>
-            </a>
-          </div>
-        </div>
-
-        <div
-          v-if="person.projects"
-          class="section">
-          <div class="section-headline">
-            <i class="section-headline__icon material-icons">code</i>{{ lang.projects }}
-          </div>
-
-          <div class="section-content-grid">
-            <a v-for="(project, index) in person.projects" :key="index"
-              class="section-content__item-grid"
-              :href="project.url">
-              <span class="section-content__header"> {{ project.name }} </span>
-              <span class="section-content__subheader">{{ project.platform }}</span>
-              <span class="section-content__text"> {{ project.description }} </span>
             </a>
           </div>
         </div>

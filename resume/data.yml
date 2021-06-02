@@ -3,7 +3,7 @@ name:
   first: Jake
   middle:
   last: Knowles
-about: Enthusiastic and creative Front-end web developer with over 5 years of experience. I am knowledgeable in a range of Front-end languages and tools to build and maintain a wide range of web applications. I am a dependable team player and keen learner who thrives when faced with learning new tools which enhance my professional skillset.
+about: Enthusiastic and creative front-end developer with over 5 years of experience. I am knowledgeable in a range of front-end languages and tools to build and maintain a wide range of web applications although I am always keen to learn new skills and languages.
 position: Front End Developer
 
 birth:
@@ -11,9 +11,15 @@ birth:
   location: London
 
 experience:
+- company: Amigo Partnership
+  position: Lead Front-End Developer
+  timeperiod: Since March 2020
+  description: Remotely lead the front-end team of 4 to deliver high end websites and apps for a range of clients, mainly using React, Next.js and Angular 8 with Capacitor. Most of our projects had to integrate with headless Content Management Systems including CraftCMS and wordpress API. Since my arrival, I have implemented a more collaborative working environment, using Pull Requests and code reviews. Now all our new projects, depending on client requests, will use Next.js with Typescript and TailwindCSS. 
+  website: https://amigopartnership.com
+
 - company: IPUSHPULL
   position: Front-End Developer
-  timeperiod: since April 2019
+  timeperiod: April 2019 - March 2020
   description: Migrated the main web app from AngularJS to Vue and build a reusable component architecture to use throughout other intergrations such as Symphony and Microsoft Teams. Implement a continuous integration while running tests using Cypress and Bitbucket Pipelines. 
   website: https://ipushpull.com
 
@@ -49,21 +55,21 @@ skills:
   level: 99
 - name: CSS3
   level: 95
-- name: JavaScript
+- name: JavaScript(ES6)
   level: 97
-- name: VueJS
-  level: 93
 - name: React
+  level: 93
+- name: Typescript
+  level: 93
+- name: Angular
   level: 60
-- name: AngularJS
-  level: 80
-- name: Cypress
-  level: 80
+- name: VueJs
+  level: 70
 - name: Node.js
   level: 70
 - name: NPM/Yarn
   level: 99
-- name: Wordpress
+- name: Cypress
   level: 99
 # knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
 #   (English and Klingon).
